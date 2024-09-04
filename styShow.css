@@ -1,0 +1,44 @@
+body
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Start
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#Ellipses
+{
+    display: flex;
+    width: 110px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.Moving
+{
+    height: 20px;
+    width: auto;
+}
+
+#Art1
+{
+    height: 400px;
+    width: auto;
+}
+
+#NextButton
+{
+    width: 270px;
+    height: 45px;
+}

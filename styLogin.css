@@ -1,0 +1,22 @@
+body
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ShapeButton
+{
+    width: 270px;
+    height: 45px; 
+}
+
+#Enter
+{
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

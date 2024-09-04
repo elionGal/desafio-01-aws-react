@@ -1,0 +1,30 @@
+body
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FF6064;
+}
+
+#Logo
+{
+    height: 400px;
+    width: auto;
+}
+
+#Form
+{
+    display:flex;
+    height: 400px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ShapeButton
+{
+    width: 270px;
+    height: 45px; 
+}
