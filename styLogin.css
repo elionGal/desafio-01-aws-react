@@ -10,7 +10,10 @@ body
 .ShapeButton
 {
     width: 270px;
-    height: 45px; 
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: white; 
 }
 
 #Enter
