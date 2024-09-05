@@ -1,3 +1,11 @@
+@font-face 
+{
+    font-family: 'Inter';
+    src: url(Fonte/Inter.zip);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     display: flex; 
@@ -5,7 +13,8 @@ body
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #FF6064; 
+    background: #FF6064;
+    font-family: 'Inter', sans-serif; 
 }
 
 #Logo
@@ -28,11 +37,5 @@ body
 button
 {
     width: 270px;
-    height: 45px;s
-}
-
-label {
-    margin-bottom: 5px; /* Adiciona espaço abaixo das labels */
-    font-weight: bold; /* Torna a fonte das labels mais destacada */
-    display: block; /* Garante que a label ocupe toda a largura disponível */
+    height: 45px;
 }

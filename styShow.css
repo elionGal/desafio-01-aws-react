@@ -1,9 +1,18 @@
+@font-face 
+{
+    font-family: 'Inter';
+    src: url(Fonte/Inter.zip);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     display: flex; 
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Inter', sans-serif;
 }
 
 #Start

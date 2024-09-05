@@ -1,3 +1,11 @@
+@font-face 
+{
+    font-family: 'Inter';
+    src: url(Fonte/Inter.zip);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
     display: flex;
@@ -5,6 +13,7 @@ body
     justify-content: center;
     background: #FF6064;
     padding-top: 150px;
+    font-family: 'Inter', sans-serif;
 }
 
 #Main
