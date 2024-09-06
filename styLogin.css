@@ -29,6 +29,7 @@ body
     display: flex;
     justify-content: left;
     align-items: center;
+    text-align: center;
 }
 
 #Enter
@@ -37,7 +38,6 @@ body
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    border: solid black 1px;
     align-items: center;
     justify-content: space-around;
     height: 400px;
@@ -52,6 +52,8 @@ body
     position: fixed;
     top: 200px;
     left: 180px;
+    height: 30px;
+    width: auto;
 }
 
 .Logo
@@ -59,4 +61,29 @@ body
     height: 30px;
     width: auto;
     margin: 5px;
+    margin-right: 40px;
+}
+
+#WhithEmail
+{
+    background: #FF6064;
+    color: white    ;
+    width: 270px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+}
+
+#SingUpText
+{
+    font-size:medium;
+}
+
+.ToSingUp
+{
+    color: #FF6064;
 }
