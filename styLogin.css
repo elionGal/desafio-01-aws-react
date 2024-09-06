@@ -21,7 +21,7 @@ body
     width: 270px;
     height: 45px;
     border-radius: 25px;
-    border: none;
+    border: solid black;
     background-color: white; 
 }
 
@@ -31,4 +31,13 @@ body
     justify-content: center;
     align-content: center;
     flex-direction: column;
+}
+
+
+
+#Vector
+{
+    position: fixed;
+    top: 200px;
+    left: 180px;
 }

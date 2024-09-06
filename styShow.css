@@ -55,4 +55,12 @@ body
     border-radius: 25px;
     border: none;
     background: #ff6064;
+    color: white;
+}
+
+#Vector
+{
+    position: fixed;
+    top: 200px;
+    left: 180px;
 }
