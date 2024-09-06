@@ -8,12 +8,14 @@
 
 body
 {
-    display: flex; 
-    justify-content: center;
+    display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 600px;
     font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin: 100px;
+    justify-content: space-between;
 }
 
 .ShapeButton
@@ -21,8 +23,12 @@ body
     width: 270px;
     height: 45px;
     border-radius: 25px;
-    border: solid black;
-    background-color: white; 
+    border: solid black 1px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 #Enter
@@ -31,6 +37,12 @@ body
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    border: solid black 1px;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 336px;
+    font-size:large;
 }
 
 
@@ -40,4 +52,11 @@ body
     position: fixed;
     top: 200px;
     left: 180px;
+}
+
+.Logo
+{
+    height: 30px;
+    width: auto;
+    margin: 5px;
 }
