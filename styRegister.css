@@ -14,13 +14,12 @@ body
     background: #FF6064;
     font-family: 'Inter', sans-serif; 
     justify-content: space-around;
-    margin: 70px;
 
 }
 
 #Logo
 {
-    height: 350px;
+    height: 450px;
     width: auto;
     padding-left: 50px;
 }
@@ -28,15 +27,15 @@ body
 #Form
 {
     display:flex;
-    height: 450px;
-    width: 300px;
+    height: 630px;
+    width: 460px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: white;
     border-radius: 25px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 form
@@ -48,37 +47,49 @@ form
 
 button
 {
-    width: 110px;
+    width: 150px;
     height: 45px;
     border-radius: 25px;
+    margin: 5px;
+    border: solid black 1px;
+    
+}
+
+#DivButtons
+{
+    display: flex;
     margin: 10px;
-    border: none;
+    height: 60px;
+    margin: 25px;
 }
 
 label
 {
     display: flex;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 25px;
     text-align: left;
-    width: 200px;
+    width: 220px;
     padding-left: 15px;
-    font-size: 12px;
-
+    font-size: 15px;
+    margin: 2px;
     padding-top: 10px;
 }
 
 input
 {
     border-radius: 25px;
-    height: 30px;
-    width: 200px;
-    padding-left: 15px;
+    height: 45px;
+    width: 280px;
+    padding-left: 30px;
     border: solid black 1px;
-    font-size: 12px;
+    
+    font-size: 15px;
 }
 
 #CreateBotton
 {
     background-color: #FF6064;
+    border: none;
+    color: white;
 }
