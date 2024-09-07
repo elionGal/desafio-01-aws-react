@@ -53,3 +53,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }0
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Seleciona os botões
+    const facebookButton = document.getElementById('FacebookButton');
+    const googleButton = document.getElementById('GoogleButton');
+    const appleButton = document.getElementById('AppleButton');
+
+    // Adiciona event listeners para os botões
+    facebookButton.addEventListener('click', () => {
+        window.location.href = 'https://www.facebook.com';
+    });
+
+    googleButton.addEventListener('click', () => {
+        window.location.href = 'https://www.google.com';
+    });
+
+    appleButton.addEventListener('click', () => {
+        window.location.href = 'https://www.apple.com';
+    });
+});

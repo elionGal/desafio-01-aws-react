@@ -88,3 +88,18 @@ body
 {
     color: #FF6064;
 }
+
+#FacebookButton:hover 
+{
+    background-color: #dddddd; /* Cor cinza quando o mouse está sobre o botão */
+}
+
+#GoogleButton:hover 
+{
+    background-color: #dddddd; /* Cor cinza quando o mouse está sobre o botão */
+}
+
+#AppleButton:hover 
+{
+    background-color: #dddddd; /* Cor cinza quando o mouse está sobre o botão */
+}
