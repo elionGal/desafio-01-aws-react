@@ -65,4 +65,5 @@ body
     left: 180px;
     height: 30px;
     width: auto;
+    transition: color 0.3s ease;
 }
