@@ -3,10 +3,12 @@
 //window.location.href = 'Show1.html';
 //}, 4000);
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() 
+{
     const backButton = document.getElementById('Vector');
 
-    if (backButton) {
+    if (backButton) 
+    {
         const path = window.location.pathname;
 
         let destination = '';
@@ -14,15 +16,22 @@ document.addEventListener('DOMContentLoaded', function() {
         if (path.includes('Show2.html')) 
         {
             destination = 'Show1.html';
-        } else (path.includes('Show3.html')) 
+        } 
+        else
+        if (path.includes('Show3.html')) 
         {
             destination = 'Show2.html'; 
         } 
+        else
+        if (path.includes('Login.html'))
+        {
+            destination = 'Show3.html'; 
+        }
 
         backButton.addEventListener('click', function() {
             window.location.href = destination;
         });
-    }0
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
