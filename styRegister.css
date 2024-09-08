@@ -87,9 +87,14 @@ input
     font-size: 15px;
 }
 
-#CreateBotton
+#CreateButton
 {
     background-color: #FF6064;
     border: none;
     color: white;
+}
+
+button:hover
+{
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
 }

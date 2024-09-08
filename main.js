@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         backButton.addEventListener('click', function() {
             window.location.href = destination;
         });
-    }0
+    }
 });
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -81,4 +81,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     appleButton.addEventListener('click', () => {
         window.location.href = 'https://www.apple.com';
     });
+});
+
+document.addEventListener('DOMContentLoaded', function() 
+{
+    const registerText = document.getElementById('ToSingUp');
+
+        const path = window.location.pathname;
+
+        let destination = '';
+
+        if (path.includes('login.html'))
+        {
+            destination = 'Register.html';
+        } 
+        
+        registerText.addEventListener('click', function() {
+            window.location.href = destination;
+        });
 });

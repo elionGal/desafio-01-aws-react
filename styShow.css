@@ -67,3 +67,8 @@ body
     width: auto;
     transition: color 0.3s ease;
 }
+
+#NextButton:hover
+{
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3); 
+}

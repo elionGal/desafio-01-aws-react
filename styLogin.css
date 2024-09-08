@@ -25,7 +25,7 @@ body
     border-radius: 25px;
     border: solid black 1px;
     background-color: white;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: left;
     align-items: center;
@@ -84,9 +84,14 @@ body
     font-size:medium;
 }
 
-.ToSingUp
+#ToSingUp
 {
     color: #FF6064;
+}
+
+#WhithEmail:hover
+{
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 #FacebookButton:hover 
