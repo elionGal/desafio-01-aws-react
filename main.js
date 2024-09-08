@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function()
         else
         if (path.includes('Login.html'))
         {
-            destination = 'Show3.html'; 
+            destination = 'Show1.html'; 
         }
 
         backButton.addEventListener('click', function() {
@@ -83,20 +83,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() 
-{
-    const registerText = document.getElementById('ToSingUp');
+document.addEventListener('DOMContentLoaded', function() {
+    const returnButton = document.getElementById('ReturnButton')
 
+    if (returnButton)
+    {
         const path = window.location.pathname;
 
         let destination = '';
 
-        if (path.includes('login.html'))
+        if (path.includes('Register.html')) 
         {
-            destination = 'Register.html';
+            destination = 'Show1.html';
         } 
-        
-        registerText.addEventListener('click', function() {
+
+        returnButton.addEventListener('click', function() {
             window.location.href = destination;
-        });
-});
+        })
+    }
+})

@@ -87,6 +87,8 @@ body
 #ToSingUp
 {
     color: #FF6064;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #WhithEmail:hover
