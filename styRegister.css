@@ -98,3 +98,27 @@ button:hover
 {
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 375px)
+{
+    body
+    {
+        flex-direction: column;
+    }
+
+    #Logo
+    {
+        height: auto;
+        width: 250px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #Form
+    {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 375px;
+    margin-bottom: -8px;
+    }
+}

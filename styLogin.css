@@ -111,4 +111,24 @@ body
     background-color: #dddddd;
 }
 
-/*<meta name="viewport" content="width=device-width, initial-scale=1.0">*/
+@media (max-width: 375px)
+{
+    #Vector
+    {
+        position: fixed;
+        top: 40px;
+        left: 18px;
+
+    }
+    p 
+    {
+        white-space: nowrap;
+        font-weight: bold;
+        color: gray;
+    }
+
+    #MainText
+    {
+        color: black;
+    }
+}
