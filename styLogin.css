@@ -8,14 +8,14 @@
 
 body
 {
-    display: flex;
     align-items: center;
-    flex-direction: column;
     height: 600px;
-    font-family: 'Inter', sans-serif;
     font-size: 40px;
     margin: 100px;
     justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Inter', sans-serif;
 }
 
 .ShapeButton
@@ -34,15 +34,15 @@ body
 
 #Enter
 {
-    display: flex; 
+    height: 400px;
+    width: 336px;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 400px;
-    width: 336px;
     font-size:large;
+    display: flex; 
 }
 
 

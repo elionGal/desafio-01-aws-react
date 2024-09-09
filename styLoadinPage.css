@@ -8,22 +8,22 @@
 
 body
 {
-    display: flex;
+    padding-top: 150px;
     align-items: center;
     justify-content: center;
     background: #FF6064;
-    padding-top: 150px;
+    display: flex;
     font-family: 'Inter', sans-serif;
 }
 
 #Main
 {
-    display:flex;
     height: 400px;
     width: 200px;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    display:flex;
 }
 
 #gif

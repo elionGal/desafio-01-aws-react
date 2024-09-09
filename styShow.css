@@ -76,25 +76,25 @@ body
 @media (max-width: 375px) 
 {
 
-#Art1
-{
-    height: 300px;
-    width: 375px;
-}
+    #Art1
+    {
+        height: 300px;
+        width: 375px;
+    }
 
-p 
-{
-    font-size:xx-large;
-    text-align: center;
-    font-weight:bold;
+    p 
+    {
+        font-size:xx-large;
+        text-align: center;
+        font-weight:bold;
 
-}
+    }
 
-#Vector
-{
-    position: fixed;
-    top: 40px;
-    left: 18px;
+    #Vector
+    {
+        position: fixed;
+        top: 40px;
+        left: 18px;
 
-}
+    }
 }

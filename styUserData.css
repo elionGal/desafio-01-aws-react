@@ -7,21 +7,22 @@
 }
 
 body
-{
-    display: flex;
+{   
     justify-content: center;
     align-items: center;
     padding: 120px;
     font-family: 'Inter', sans-serif; 
+    display: flex;
 }
 
 div
 {
-    border: solid black 1px;
+    
     height: 300px;
     width: 300px;
     border-radius: 25px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: solid black 1px;
 }

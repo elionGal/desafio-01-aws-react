@@ -2,7 +2,8 @@ const currentPage = window.location.pathname.split('/').pop();
 
 if (currentPage === 'LoadingPage.html') 
 {
-    setTimeout(function() {
+    setTimeout(function() 
+    {
         window.location.href = 'Show1.html';
     }, 4000);
 }
@@ -32,16 +33,19 @@ document.addEventListener('DOMContentLoaded', function()
             destination = 'LoadingPage.html'; 
         }
 
-        backButton.addEventListener('click', function() {
+        backButton.addEventListener('click', function() 
+        {
             window.location.href = destination;
         });
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() 
+{
     const backButton = document.getElementById('NextButton');
 
-    if (backButton) {
+    if (backButton) 
+        {
         const path = window.location.pathname;
 
         let destination = '';
@@ -61,33 +65,37 @@ document.addEventListener('DOMContentLoaded', function() {
             destination = 'Login.html'; 
         } 
 
-        backButton.addEventListener('click', function() {
+        backButton.addEventListener('click', function() 
+        {
             window.location.href = destination;
         });
     }
 });
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Seleciona os botões
+document.addEventListener('DOMContentLoaded', (event) => 
+    {
     const facebookButton = document.getElementById('FacebookButton');
     const googleButton = document.getElementById('GoogleButton');
     const appleButton = document.getElementById('AppleButton');
 
-    // Adiciona event listeners para os botões
-    facebookButton.addEventListener('click', () => {
+    facebookButton.addEventListener('click', () => 
+    {
         window.location.href = 'https://www.facebook.com';
     });
 
-    googleButton.addEventListener('click', () => {
+    googleButton.addEventListener('click', () => 
+    {
         window.location.href = 'https://www.google.com';
     });
 
-    appleButton.addEventListener('click', () => {
+    appleButton.addEventListener('click', () => 
+    {
         window.location.href = 'https://www.apple.com';
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() 
+{
     const returnButton = document.getElementById('ReturnButton')
 
     if (returnButton)
@@ -101,7 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
             destination = 'Login.html';
         } 
 
-        returnButton.addEventListener('click', function() {
+        returnButton.addEventListener('click', function() 
+        {
             window.location.href = destination;
         })
     }
@@ -143,7 +152,8 @@ function displayUserData()
 function setupRegisterPage() 
 {
     document.getElementById('CreateButton').addEventListener('click', handleFormSubmit);
-    document.getElementById('ReturnButton').addEventListener('click', function() {
+    document.getElementById('ReturnButton').addEventListener('click', function() 
+    {
         window.history.back();
     });
 }
@@ -155,9 +165,11 @@ function setupUserDataPage()
 
 document.addEventListener('DOMContentLoaded', function() 
 {
-    if (window.location.pathname.endsWith('Register.html')) {
+    if (window.location.pathname.endsWith('Register.html')) 
+    {
         setupRegisterPage();
-    } else if (window.location.pathname.endsWith('UserData.html')) {
+    } else if (window.location.pathname.endsWith('UserData.html')) 
+    {
         setupUserDataPage();
     }
 });
