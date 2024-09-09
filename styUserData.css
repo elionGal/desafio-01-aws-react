@@ -1,0 +1,27 @@
+@font-face 
+{
+    font-family: 'Inter';
+    src: url(Fonte/Inter.zip);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    font-family: 'Inter', sans-serif; 
+}
+
+div
+{
+    border: solid black 1px;
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
