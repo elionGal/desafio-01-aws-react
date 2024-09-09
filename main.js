@@ -8,6 +8,20 @@ if (currentPage === 'LoadingPage.html')
     }, 4000);
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.pathname.endsWith('Login.html')) {
+        var svgElement = document.getElementById('Vector');
+
+        svgElement.addEventListener('mouseover', function() {
+            svgElement.querySelector('path').setAttribute('fill', '#ff6064');
+        });
+
+        svgElement.addEventListener('mouseout', function() {
+            svgElement.querySelector('path').setAttribute('fill', 'black');
+        });
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function() 
 {
     const backButton = document.getElementById('Vector');
