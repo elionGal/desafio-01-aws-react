@@ -131,4 +131,9 @@ body
     {
         color: black;
     }
+
+    .ShapeButton
+    {
+        font-weight: bold;
+    }
 }

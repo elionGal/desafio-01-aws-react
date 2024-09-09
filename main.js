@@ -1,7 +1,10 @@
-//setTimeout(function() 
-//{
-//window.location.href = 'Show1.html';
-//}, 4000);
+const currentPage = window.location.pathname.split('/').pop();
+
+if (currentPage === 'LoadingPage.html') {
+    setTimeout(function() {
+        window.location.href = 'Show1.html';
+    }, 4000);
+}
 
 document.addEventListener('DOMContentLoaded', function() 
 {
@@ -25,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function()
         else
         if (path.includes('Login.html'))
         {
-            destination = 'Show1.html'; 
+            destination = 'LoadingPage.html'; 
         }
 
         backButton.addEventListener('click', function() {
@@ -103,9 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 })
 
-// scripts.js
-
-// Função para redirecionar e passar os dados do formulário para a página UserData.html
 function handleFormSubmit() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
